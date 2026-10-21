@@ -1,8 +1,17 @@
-langchain==0.1.4
-langchain_community==0.0.16
-langchain_core==0.1.17
-#conda activate chat-with-websites-master==0.0.5
-python-dotenv==1.0.1
-streamlit==1.30.0
-chromadb==0.3.29
-beautifulsoup4==4.12.2
+# Python 3.14+ (use .python-version); recreate venv after Python upgrade
+python-dotenv>=1.0.1
+streamlit>=1.40.0
+beautifulsoup4>=4.12.2
+
+langchain>=0.3.18
+langchain-classic>=1.0.0
+langchain-community>=0.3.18
+langchain-core>=0.3.18
+langchain-text-splitters>=0.3.6
+langchain-google-genai>=2.0.0
+langchain-huggingface>=0.1.2
+langchain-chroma>=0.2.0
+
+chromadb>=0.5.0
+sentence-transformers>=3.0.0
+torchvision>=0.19.0
